@@ -21,12 +21,12 @@ int main(int argc, char *argv[]) {
         // print all the numbers in equation
 //        while (*ca != '\0') {
 //            if (*ca >= '0' && *ca <= '9') {
-//                std::cout << getDouble(ca) << ",";
+//                std::cout << Expression::getDouble(ca) << ",";
 //            }
 //            ca++;
 //        }
         std::cout << std::endl;
-        std::cout << str << " = " << evaluateExpression(ca) << " ; expected = " << answers[i] << std::endl;
+        std::cout << str << " = " << Expression::evaluateExpression(ca) << " ; expected = " << answers[i] << std::endl;
     }
 
     return 0;
