@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
 //            ca++;
 //        }
         std::cout << std::endl;
-        std::cout << str << " = " << Expression::evaluateExpression(ca) << " ; expected = " << answers[i] << std::endl;
+        std::cout << str << " = " << Expression::evaluate(ca) << " ; expected = " << answers[i] << std::endl;
     }
 
     return 0;

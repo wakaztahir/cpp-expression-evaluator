@@ -69,7 +69,7 @@ namespace Expression {
         return number;
     }
 
-    double evaluateExpression(char *expression) {
+    double evaluate(char *expression) {
         std::stack<char> ops;
         std::stack<double> values;
 
